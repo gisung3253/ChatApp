@@ -8,17 +8,37 @@
     tools:context=".ChatActivity">
 
     <!-- 대화내용 들어감 -->
+
+
+    <!-- 입력값, 전송버튼 -->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="361dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="680dp"
+
+        android:layout_weight="15"
+        android:background="@drawable/btn_background"
+        android:text="뒤로가기"
+        android:textColor="@color/white" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/chat_recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
         android:layout_above="@id/input_layout"
-        />
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="2dp" />
 
-
-    <!-- 입력값, 전송버튼 -->
     <LinearLayout
+
         android:id="@+id/input_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
