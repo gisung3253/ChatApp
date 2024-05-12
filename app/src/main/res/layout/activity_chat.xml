@@ -34,7 +34,7 @@
             android:layout_height="50dp"
             android:layout_marginStart="10dp"
             android:layout_weight="85"
-            android:background="@color/cardview_dark_background"
+            android:background="@drawable/edit_background"
             android:hint="메시지를 입력하세요"
             android:paddingStart="10dp"/>
 
@@ -45,7 +45,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="15"
-            android:background="@color/red"
+            android:background="@drawable/btn_background"
+            android:textColor="@color/white"
             android:text="전송"
             />
 
